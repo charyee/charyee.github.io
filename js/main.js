@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
         switch (currentPage) {
             case 'index.html':
             case '':
-                nextPage = 'html/experience.html';
+                nextPage = '../html/experience.html';
                 break;
             case 'experience.html':
                 nextPage = 'projects.html';
