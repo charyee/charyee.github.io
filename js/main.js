@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     setTimeout(() => {
         transitionElement.classList.remove('is-active');
-    }, 500); // Match your transition duration
+    }, 500); 
 
     document.addEventListener('keydown', function(event) {
         if (event.key === 'ArrowRight') {
@@ -77,6 +77,6 @@ document.addEventListener('DOMContentLoaded', () => {
         
         setTimeout(() => {
             window.location.href = page;
-        }, 500); // Match this with your CSS transition duration
+        }, 500); 
     }
 });
