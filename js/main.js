@@ -2,7 +2,7 @@ window.onload = () => {
     const transition_el = document.querySelector('.transition');
     setTimeout(() => {
         transition_el.classList.remove('is-active');
-    }, 500);
+    }, 400);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -77,6 +77,6 @@ document.addEventListener('DOMContentLoaded', () => {
         
         setTimeout(() => {
             window.location.href = page;
-        }, 500); 
+        }, 400); 
     }
 });
