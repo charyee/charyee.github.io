@@ -27,13 +27,13 @@ document.addEventListener('DOMContentLoaded', () => {
         switch (currentPage) {
             case 'index.html':
             case '':
-                nextPage = 'html/experience.html';
+                nextPage = 'experience.html';
                 break;
             case 'experience.html':
-                nextPage = 'html/projects.html';
+                nextPage = 'projects.html';
                 break;
             case 'projects.html':
-                nextPage = 'html/contact.html';
+                nextPage = 'contact.html';
                 break;
             case 'contact.html':
                 nextPage = 'index.html';
@@ -53,16 +53,16 @@ document.addEventListener('DOMContentLoaded', () => {
         switch (currentPage) {
             case 'index.html':
             case '':
-                prevPage = 'html/contact.html';
+                prevPage = 'contact.html';
                 break;
             case 'experience.html':
                 prevPage = 'index.html';
                 break;
             case 'projects.html':
-                prevPage = 'html/experience.html';
+                prevPage = 'experience.html';
                 break;
             case 'contact.html':
-                prevPage = 'html/projects.html';
+                prevPage = 'projects.html';
                 break;
             default:
                 prevPage = 'index.html';
