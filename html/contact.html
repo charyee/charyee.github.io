@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            html, body { margin: 0; padding: 0; height: 100%; width: 100%; background-color: rgb(60, 86, 100);  } 
+        </style>
+        <title>Charlene Yee</title>
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/transitions.css">
+    </head>
+    <body>
+        <div class="transition transition-2 is-active"></div>
+        <header>
+            <nav>
+                <ul>
+                    <li class = "btns"><a href = "hello.html">Hello</a></li>
+                    <li class = "btns"><a href = "experience.html">Experience</a></li>
+                    <li class = "btns"><a href = "projects.html">Projects</a></li>
+                    <li class = "btns"><a href = "contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <h1 class = "fadeanimation">Let's Connect</h1>
+            </header>
+            <section class="connect slideleft">I'm always open to new opportunities to collaborate with others or grow as a programmer and developer. <br> Feel free to reach out! </section>
+            <section class="contacts slideright">
+                <div class="contactborder slideright"><h2 class="contact">Email</h2>
+                    <h2 class="envelope btns slideright" onclick="sendEmail()">✉️</h2>
+                    <h2 class="email slideright">charyee@umich.edu</h2></div>
+                <div class="contactborder slideright"><h2 class="contact">Phone Number</h2>
+                    <h2 class="phone slideright">📞</h2>
+                    <h2 class="number slideright">(720) 839-0396</h2></div>
+                <div class="contactborder slideright"><h2 class="contact">LinkedIn</h2>
+                    <h2 class="link btns slideright"><a href= 'https://www.linkedin.com/in/charlene-yee-204099295' target="_blank"><img src="../images/linkedin.avif" alt="Linked-In logo" class="linkedinlogo"></a></h2>
+            </section>
+            <script>
+                function sendEmail() {
+                    window.location.href = "mailto:charyee@umich.edu";
+                }
+            </script>
+            <footer></footer>
+            <script src = "../js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,382 @@
+body {
+    margin: 0;
+    padding: 70px 0 0;
+    overflow-x: hidden;
+    height: 100%;
+    background: rgb(220, 236, 234);
+    color: white;
+    font-family: Gill Sans, Helvetica, Verdana, Arial, Helvetica, sans-serif, Helvetica Neue;
+    cursor: url(images/arrow.png), auto;
+}
+header {
+    background: rgb(220, 236, 234);
+    border-radius: 10px;
+    color: rgb(51, 59, 59);
+    margin: 20px 130px;
+}
+h1 {
+    font-size: 40px;
+}
+section{
+    background: rgb(220, 236, 234);
+    color: rgb(51, 59, 59);
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.info {
+    background: rgb(220, 236, 234);
+    padding: 20px;
+    flex-direction: column;
+}
+div{
+    background: rgb(172, 206, 216);
+    width: 500px;
+    border-radius: 20px;
+    margin-left: 10%;
+}
+nav{
+    float: none;
+    position: fixed;
+    top: 5.5%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+}
+ul {
+    display: inline-flex; 
+    text-align: center;
+    background: rgb(172, 206, 216);    
+    margin: auto;
+    padding: 0;
+    list-style-type: none;
+    border-radius: 50px
+}
+li {
+    display: inline-block; 
+    font: Impact;
+    width: 100px;
+    background: rgb(60, 86, 100);
+    margin: 10px;
+    border-block: 10px, solid, rgb(60, 86, 100);
+    border-radius: 50px;
+    cursor: url('images/grab.png'), auto;
+}
+li a {
+    text-decoration: none;
+    color: white;
+    cursor: url('images/grab.png'), auto;
+}
+.image{
+    max-width: 85%;
+    height: auto;
+    width: auto;
+    border-radius: 50px; 
+    box-shadow: 5px 5px rgb(60, 86, 100), 10px 10px rgb(172, 206, 216);}
+.pfp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image2{
+    max-width: 10%;
+    height: auto;
+    width: auto;
+    border-radius: 100px; 
+}
+p{
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+h2{
+    font-size: 38px;
+    text-align: center;
+    margin-right: 12%;
+    margin-left: 2%;
+}
+.umich {
+    background: rgb(220, 236, 234);
+    display: flex;
+    margin: 0 0 0 0;
+    align-items: center;
+    gap: 10px;
+    width: 1000px;
+    border-radius: 50px;
+}
+.highlight {
+    color: rgb(111, 160, 184);
+}
+.experiences {
+    background: rgb(220, 236, 234);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    border-radius: 0;
+}
+.bubble {
+    display: inline-block; 
+    font: Impact;
+    width: 900px;
+    background: rgb(60, 86, 100);
+    margin: 20px;
+    border-block: 10px, solid, rgb(172, 206, 216);
+    border-radius: 50px;
+    cursor: url('images/arrow.png'), auto;
+}
+h5 {
+    font-size: medium;
+    font-weight: normal;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.toltech {
+    max-width: 30%;
+    height: auto;
+    width: auto;
+    margin-top: 2%;
+}
+.umichm {
+    max-width: 10%;
+    height: auto;
+    width: auto;
+    margin-top: 2%;
+}
+.fastenterprises {
+    max-width: 15%;
+    height: auto;
+    width: auto;
+    margin-top: 2%;
+}
+.mdpcontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+    background: rgb(60, 86, 100);
+}
+.mdp {
+    max-width: 65%;
+    height: auto;
+    width: auto;
+}
+.back {
+    float: none;
+    position: fixed;
+    top: 9%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+    background: rgb(60, 86, 100);
+}
+.mdpbackground {
+    background: rgb(60, 86, 100);
+}
+.connect {
+    margin-left: 6%;
+    margin-top: -2%;
+    font-size: 25px;
+}
+.contact {
+    font-size: 25px;
+    margin-left: 10%;
+}
+.email {
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 10%;
+}
+.number {
+    font-size: 19px;
+    font-weight: normal;
+    margin-left: 10%;
+}
+.envelope {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    margin-left: 38%;
+    font-size: 30px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    background: rgb(60, 86, 100);
+    cursor: url(images/grab.png), auto;
+}
+.phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    margin-left: 38%;
+    font-size: 30px;
+    border-radius: 50%;
+    border: 2px solid rgb(60, 86, 100);
+    background: rgb(210, 227, 221);
+}
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 110px;
+    margin-left: 34%;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-left: 31%;
+    border: 2px solid white;
+    background: rgb(60, 86, 100);
+}
+.contactborder {
+    box-shadow: 5px 5px rgb(60, 86, 100), 10px 10px rgb(172, 206, 216);
+}
+.linkedinlogo {
+    width: 110px;
+    margin-top: 6%;
+    cursor: url(images/grab.png), auto;
+}
+.codenamespic {
+    width: 500px;
+    border: 5px solid black;
+    border-radius: 30px;
+}
+.contacts {
+    margin-right: 10%;
+}
+.btns:hover {
+    transform: translateY(-2px);
+}
+.btns2:hover {
+    transform: translateY(2px);
+}
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: normal;
+    }
+}
+@keyframes slideInRight {
+    from {
+        transform: translateX(300px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: normal;
+    }
+}
+@keyframes slideInUp {
+    from {
+        transform: translateY(300px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: normal;
+    }
+}
+@keyframes slideInDown {
+    from {
+        transform: translateY(-300px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: normal;
+    }
+}
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: normal;
+    }
+}
+.slideleft {
+    animation: slideInLeft 1s ease-in 0.2s 1 normal;
+}
+.slideright {
+    animation: slideInRight 1.2s ease-in 0.2s 1 normal;
+}
+.fadeanimation {
+    animation: fade 1.5s ease-in 0.2s 1 normal;
+}
+.slideup {
+    animation: slideInUp 1s ease-in 0.2s 1 normal;
+}
+.slidedown {
+    animation: slideInDown 1s ease-in 0.2s 1 normal;
+}
+.animated {
+    animation-fill-mode: forwards;
+}
+.project-container {
+    position: relative;
+    width: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.project-container:hover {
+    transform: scale(1.05);
+}
+.project-image, .codenamespic { 
+    height: 280px;
+    width: 490px;
+    border: 5px solid black;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    display: block;
+}
+.project-container:hover .project-image, .project-container:hover .codenamespic {
+    transform: scale(1.1);
+}
+.projectname, .codenames {
+    position: absolute;
+    top: 0;
+    left: -10;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: auto; 
+}
+.projectname h3, .codenames h3,
+.projectname h4, .codenames h4,
+.projectname h5, .codenames h5 {
+    margin: 5px 10% 5px 10%; 
+    line-height: 1.6; 
+}
+.project-container:hover .codenames, .project-container:hover .projectname {
+    opacity: 1;
+    pointer-events: auto
+}
+.github {
+    color: white;
+    cursor: url('images/grab.png'), auto;
+}
+.keys {
+    height: 50px;
+    width: 80px;
+    right: 10%;
+    float: right;
+    margin-right: 40px; 
+    margin-top: 40px; 
+}
+.keywords {
+    color: black;
+    float: right;
+    margin-right: -72px; 
+    margin-top: 100px; 
+}
