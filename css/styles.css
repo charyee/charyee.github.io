@@ -41,6 +41,7 @@ nav{
     top: 5.5%;
     left: 82%;
     transform: translate(-50%, -50%);
+    z-index: 9999;
 }
 ul {
     display: inline-flex; 
@@ -112,16 +113,42 @@ h2{
     align-items: center;
     border-radius: 0;
 }
-.bubble {
+
+.bubble1 {
     display: inline-block; 
     font: Impact;
     width: 900px;
-    background: rgb(60, 86, 100);
+    background: rgb(83, 109, 125);
     margin: 20px;
     border-block: 10px, solid, rgb(172, 206, 216);
     border-radius: 50px;
     cursor: url('../images/arrow.png'), auto;
+    transition: transform 1s ease; 
+    transform-origin: center;
 }
+
+.bubble2 {
+    display: inline-block; 
+    font: Impact;
+    width: 900px;
+    background: rgb(191, 216, 225);
+    margin: 20px;
+    border-block: 10px, solid, rgb(60, 86, 100);
+    color: rgb(60, 86, 100);
+    border-radius: 50px;
+    cursor: url('../images/arrow.png'), auto;
+    transition: transform 1s ease; 
+    transform-origin: center;
+}
+
+.bubble1:hover {
+    transform: translateY(-10px);
+}
+
+.bubble2:hover {
+    transform: translateY(-10px);
+}
+
 h5 {
     font-size: medium;
     font-weight: normal;
@@ -141,6 +168,15 @@ h5 {
     width: auto;
     margin-top: 2%;
 }
+
+.relatedcalifornia {
+    max-width: 20%;
+    height: auto;
+    width: auto;
+    margin-top: 2%;
+    margin-bottom: -3%;
+}
+
 .fastenterprises {
     max-width: 15%;
     height: auto;
@@ -379,4 +415,8 @@ h5 {
     float: right;
     margin-right: -72px; 
     margin-top: 100px; 
+}
+
+.introheader {
+    font-size: 30px;
 }
