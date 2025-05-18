@@ -103,9 +103,35 @@ h2{
     width: 1000px;
     border-radius: 50px;
 }
-.highlight {
+.fade-rotation {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    height: 7em;
+    overflow: hidden;
+  }
+  .text-group {
+    position: relative;
+    height: 3em;
+    display: block;
+  }
+  .intro-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    pointer-events: none;
+  }
+  .intro-text.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .highlight {
     color: rgb(111, 160, 184);
-}
+  }
 .experiences {
     background: rgb(220, 236, 234);
     flex-direction: column;

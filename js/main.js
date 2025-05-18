@@ -80,3 +80,16 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 400); 
     }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const fadeTexts = document.querySelectorAll('.intro-text');
+    let current = 0;
+
+    function rotateFadeText() {
+        fadeTexts[current].classList.remove('active');
+        current = (current + 1) % fadeTexts.length;
+        fadeTexts[current].classList.add('active');
+    }
+    fadeTexts[0].classList.add('active');
+    setInterval(rotateFadeText, 3000);
+});
