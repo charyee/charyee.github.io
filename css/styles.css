@@ -435,15 +435,14 @@ h5 {
     right: 10%;
     float: right;
     margin-right: 40px; 
-    margin-top: 40px; 
+    margin-top: -10px; 
 }
 .keywords {
     color: black;
     float: right;
     margin-right: -72px; 
-    margin-top: 100px; 
+    margin-top: 45px; 
 }
-
 .introheader {
     font-size: 30px;
 }
