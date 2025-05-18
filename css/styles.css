@@ -71,6 +71,7 @@ li a {
     max-width: 85%;
     height: auto;
     width: auto;
+    margin-top: -50%;
     border-radius: 50px; 
     box-shadow: 5px 5px rgb(60, 86, 100), 10px 10px rgb(172, 206, 216);}
 .pfp {
